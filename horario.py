@@ -9,4 +9,4 @@ class Horario:
         Horario.total_horarios += 1  # Aumenta el contador cada vez que se crea un horario
 
     def decir_dia(self):
-        pass
+        print("Dia: ", self.dia)
