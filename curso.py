@@ -6,3 +6,7 @@ class Curso:
         self.codigo = codigo
         self.descripcion = descripcion
         Curso.total_cursos += 1  # Aumenta el contador cada vez que se crea un curso
+
+    def __str__(self):
+        print(self.nombre, self.codigo, self.descripcion)
+
